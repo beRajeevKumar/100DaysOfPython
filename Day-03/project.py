@@ -40,3 +40,4 @@ if road_taken == "left":
         print("Attacked by trout. Game Over.")
 else:
     print("Fall into a hole. Game Over.")
+    
