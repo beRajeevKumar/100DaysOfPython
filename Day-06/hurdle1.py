@@ -4,21 +4,19 @@
 #     turn_left()
 #     turn_left()
 #     turn_left()
-    
-# def jump():
+
+# def till_last():
+#     move()
 #     turn_left()
-#     while wall_on_right():
-#         move()
+#     move()
 #     turn_right()
 #     move()
 #     turn_right()
-#     while front_is_clear():
-#         move()
+#     move()
 #     turn_left()
+
     
-# while not at_goal():
-#     if wall_in_front():
-#         jump()  
-#     else:
-#         move()
+# while not at_goal() :
+#     till_last()
+    
         
