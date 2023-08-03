@@ -1,3 +1,6 @@
+from art import logo
+print(logo)
+
 print("Welcome to the secret auction program")
 
 bids_data =[]
@@ -16,19 +19,12 @@ while not should_end:
 
     again = input("Is there any other bidders? Type 'yes' or 'no'.")
     if again == "no":
-         should_end = True
+         should_end = True 
 
+highest_bid=0
+winner=""
 for bid in range(len(bids_data)):
-    initial_bid=0
-    user_bids=[bids_data[bid]["name"],bids_data[bid]["value"]]
-if bids_data[bid]["value"] > initial_bid:
-    print(f"The winner is {user_bids[0]} with a bid of ${user_bids[1]}.")
-else:
-    print("No one wins the bid.")
-
-
-
-
-
-
-# The winner is Jams with a bid of $123    
+    if bids_data[bid]["value"] > highest_bid:
+        highest_bid = bids_data[bid]["value"]
+        winner=bids_data[bid]["name"]
+print(f"The winner is {winner} with a bid of ${highest_bid}.")
