@@ -14,7 +14,7 @@ travel_log ={
 }
 
 # Nesting a dictionary in a list
-travel_log ={ 
+travel_log =[ 
     {"Country":"France",
     "cities_visited":["Paris", "Lille","Dijon"],
     "total_visits":2,
@@ -23,4 +23,4 @@ travel_log ={
     "cities_visited":["Delhi", "Bengluru","Indore","Gurugram"],
     "total_visits":4
     }
-}
+]
