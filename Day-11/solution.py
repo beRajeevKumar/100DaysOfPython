@@ -1,6 +1,5 @@
 import random
 from art import logo
-import os
 
 
 def deal_card():
@@ -79,5 +78,4 @@ play_again = input(
     "Do you want to play a game of Blackjack? Type 'y' or 'n': ")
 
 while play_again == "y":
-    # os.system('cls' if os.name == 'nt' else 'clear')
     play_game()
