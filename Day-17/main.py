@@ -1,16 +1,12 @@
-# This is a sample Python script.
+class User:
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    def __init__(self, user_id, username):
+        self.id = user_id
+        self.username = username
+        self.followers = 0
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# Constructors
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+user_1 = User("001", "Rajeev Kumar")
+print(user_1.id, user_1.username, user_1.followers)
