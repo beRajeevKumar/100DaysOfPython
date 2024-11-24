@@ -1,4 +1,4 @@
-# Sum of the numbers from 1 to 100 by using range funciton.
+# Sum of the numbers from 1 to 100 by using range function.
 # total = 0
 # # Here we use range from 0 to 101 because 0 is inclusive but 101 is exclusive.
 # for number in range(0, 101):
